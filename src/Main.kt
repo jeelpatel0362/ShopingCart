@@ -1,11 +1,11 @@
 fun main() {
 
-    print("Enter Customer Name: ")
+    print("Enter Customer Name : ")
     val customerName = readln()
-    print("Enter Mobile Number: ")
+    print("Enter Mobile Number : ")
     val mobileNumber = readln()
 
-    print("Enter number of products: ")
+    print("Enter number of products : ")
     val numProducts = readln().toInt()
 
     val productNames = mutableListOf<String>()
@@ -13,12 +13,12 @@ fun main() {
     val productQuantities = mutableListOf<Int>()
 
     for (i in 0..<numProducts) {
-        println("Enter details for Product ${i + 1}:")
-        print("Product Name: ")
+        println("Enter details for Product ${i + 1} :")
+        print("Product Name : ")
         val name = readln()
-        print("Product Price: ")
+        print("Product Price : ")
         val price = readln().toDouble()
-        print("Product Quantity: ")
+        print("Product Quantity : ")
         val quantity = readln().toInt()
 
         productNames.add(name)
