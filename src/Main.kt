@@ -89,11 +89,11 @@ fun main() {
 
     println("----------------------------------------------------------")
 
-    println("Total Price Before Discount: ${"%.2f".format(totalWithoutDiscount)}")
+    println("Total Price : ${"%.2f".format(totalWithoutDiscount)}")
     println("Discount Applied: $discountPercentage%")
 
     println("----------------------------------------------------------")
 
-    println("Total Price After Discount: ${"%.2f".format(totalWithDiscount)}")
+    println("Net Pay: ${"%.2f".format(totalWithDiscount)}")
 
 }
